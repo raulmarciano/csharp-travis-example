@@ -3,6 +3,6 @@ mono: none
 dist: xenial
 dotnet: 3.1
 script:
-  - dotnet restore ./scharp-travis-example
-  - dotnet build ./scharp-travis-example
-  - dotnet test ./scharp-travis-example
+  - dotnet restore ./csharp-travis-example
+  - dotnet build ./csharp-travis-example
+  - dotnet test ./csharp-travis-example
